@@ -1,0 +1,253 @@
+2022-10-17 20:44:52.448  INFO 6452 --- [main] c.l.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 17.0.4.1 on MILE-BL-4144-LAP with PID 6452 (C:\Users\Miles\Desktop\workspace-spring-tool-suite-4-4.16.0.RELEASE\productrestapi\target\classes started by Miles in C:\Users\Miles\Desktop\workspace-spring-tool-suite-4-4.16.0.RELEASE\productrestapi)
+2022-10-17 20:44:52.468  INFO 6452 --- [main] c.l.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-17 20:44:53.519  INFO 6452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-17 20:44:53.579  INFO 6452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2022-10-17 20:44:54.336  INFO 6452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2022-10-17 20:44:54.349  INFO 6452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-17 20:44:54.349  INFO 6452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 20:44:54.479  INFO 6452 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-10-17 20:44:54.480  INFO 6452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1946 ms
+2022-10-17 20:44:54.863  WARN 6452 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-10-17 20:44:55.443  INFO 6452 --- [main] com.hazelcast.system.logo                : [192.168.187.1]:5701 [dev] [5.1.3] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-10-17 20:44:55.444  INFO 6452 --- [main] com.hazelcast.system                     : [192.168.187.1]:5701 [dev] [5.1.3] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-10-17 20:44:55.444  INFO 6452 --- [main] com.hazelcast.system                     : [192.168.187.1]:5701 [dev] [5.1.3] Hazelcast Platform 5.1.3 (20220801 - 93838b2) starting at [192.168.187.1]:5701
+2022-10-17 20:44:55.444  INFO 6452 --- [main] com.hazelcast.system                     : [192.168.187.1]:5701 [dev] [5.1.3] Cluster name: dev
+2022-10-17 20:44:55.445  INFO 6452 --- [main] com.hazelcast.system                     : [192.168.187.1]:5701 [dev] [5.1.3] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-10-17 20:44:55.449  INFO 6452 --- [main] com.hazelcast.system                     : [192.168.187.1]:5701 [dev] [5.1.3] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-10-17 20:44:56.214  INFO 6452 --- [main] com.hazelcast.system.security            : [192.168.187.1]:5701 [dev] [5.1.3] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-10-17 20:44:56.328  INFO 6452 --- [main] com.hazelcast.instance.impl.Node         : [192.168.187.1]:5701 [dev] [5.1.3] Using Multicast discovery
+2022-10-17 20:44:56.334  WARN 6452 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.187.1]:5701 [dev] [5.1.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-10-17 20:44:56.646  INFO 6452 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.187.1]:5701 [dev] [5.1.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-10-17 20:44:56.652  INFO 6452 --- [main] com.hazelcast.core.LifecycleService      : [192.168.187.1]:5701 [dev] [5.1.3] [192.168.187.1]:5701 is STARTING
+2022-10-17 20:44:58.816  INFO 6452 --- [main] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5701 [dev] [5.1.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25 this
+]
+
+2022-10-17 20:44:58.832  INFO 6452 --- [main] com.hazelcast.core.LifecycleService      : [192.168.187.1]:5701 [dev] [5.1.3] [192.168.187.1]:5701 is STARTED
+2022-10-17 20:44:58.963  INFO 6452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-17 20:44:59.419  INFO 6452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-17 20:44:59.495  INFO 6452 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 20:44:59.651  INFO 6452 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-17 20:45:00.028  INFO 6452 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 20:45:00.208  INFO 6452 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-17 20:45:01.092  INFO 6452 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 20:45:01.105  INFO 6452 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 20:45:01.482  WARN 6452 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-17 20:45:02.074  WARN 6452 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0ff0ef10-31ad-4ce8-8c97-144ae3e3b505
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-17 20:45:02.237  INFO 6452 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-10-17 20:45:02.258  INFO 6452 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20072ff1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e48b9ed, org.springframework.security.web.context.SecurityContextPersistenceFilter@ba4c99c, org.springframework.security.web.header.HeaderWriterFilter@16d7f503, org.springframework.web.filter.CorsFilter@38ed9fb2, org.springframework.security.web.csrf.CsrfFilter@563bf9d2, org.springframework.security.web.authentication.logout.LogoutFilter@52db9036, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a06b374, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1626612d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3bde85b0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d96b0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d45b457, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c1605e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22bf4d9d, org.springframework.security.web.session.SessionManagementFilter@1bfa398e, org.springframework.security.web.access.ExceptionTranslationFilter@5d956649, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a434cdd]
+2022-10-17 20:45:02.351  INFO 6452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path '/productapi'
+2022-10-17 20:45:02.372  INFO 6452 --- [main] c.l.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 10.417 seconds (JVM running for 11.367)
+2022-10-17 20:45:03.616  INFO 6452 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-17 20:45:03.616  INFO 6452 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-17 20:45:03.619  INFO 6452 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-17 20:47:46.182  INFO 9408 --- [main] c.l.s.ProductrestapiApplicationTests     : Starting ProductrestapiApplicationTests using Java 17.0.4.1 on MILE-BL-4144-LAP with PID 9408 (started by Miles in C:\Users\Miles\Desktop\workspace-spring-tool-suite-4-4.16.0.RELEASE\productrestapi)
+2022-10-17 20:47:46.185  INFO 9408 --- [main] c.l.s.ProductrestapiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-10-17 20:47:47.400  INFO 9408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-17 20:47:47.453  INFO 9408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-10-17 20:47:48.180  WARN 9408 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-10-17 20:47:48.629  INFO 9408 --- [main] com.hazelcast.system.logo                : [192.168.187.1]:5702 [dev] [5.1.3] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-10-17 20:47:48.630  INFO 9408 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-10-17 20:47:48.631  INFO 9408 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Hazelcast Platform 5.1.3 (20220801 - 93838b2) starting at [192.168.187.1]:5702
+2022-10-17 20:47:48.632  INFO 9408 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Cluster name: dev
+2022-10-17 20:47:48.632  INFO 9408 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-10-17 20:47:48.639  INFO 9408 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-10-17 20:47:49.310  INFO 9408 --- [main] com.hazelcast.system.security            : [192.168.187.1]:5702 [dev] [5.1.3] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-10-17 20:47:49.408  INFO 9408 --- [main] com.hazelcast.instance.impl.Node         : [192.168.187.1]:5702 [dev] [5.1.3] Using Multicast discovery
+2022-10-17 20:47:49.412  WARN 9408 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.187.1]:5702 [dev] [5.1.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-10-17 20:47:49.756  INFO 9408 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.187.1]:5702 [dev] [5.1.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-10-17 20:47:49.766  INFO 9408 --- [main] com.hazelcast.core.LifecycleService      : [192.168.187.1]:5702 [dev] [5.1.3] [192.168.187.1]:5702 is STARTING
+2022-10-17 20:47:50.063  INFO 9408 --- [main] c.h.i.cluster.impl.MulticastJoiner       : [192.168.187.1]:5702 [dev] [5.1.3] Trying to join to discovered node: [192.168.187.1]:5701
+2022-10-17 20:47:50.118  INFO 6452 --- [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [192.168.187.1]:5701 [dev] [5.1.3] Initialized new cluster connection between /192.168.187.1:5701 and /192.168.187.1:63472
+2022-10-17 20:47:50.124  INFO 9408 --- [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [192.168.187.1]:5702 [dev] [5.1.3] Initialized new cluster connection between /192.168.187.1:63472 and /192.168.187.1:5701
+2022-10-17 20:47:55.233  INFO 6452 --- [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5701 [dev] [5.1.3] 
+
+Members {size:2, ver:2} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25 this
+	Member [192.168.187.1]:5702 - aa430eb4-7fa6-4d16-900e-6868fec48308
+]
+
+2022-10-17 20:47:55.254  INFO 9408 --- [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5702 [dev] [5.1.3] 
+
+Members {size:2, ver:2} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25
+	Member [192.168.187.1]:5702 - aa430eb4-7fa6-4d16-900e-6868fec48308 this
+]
+
+2022-10-17 20:47:55.274  INFO 9408 --- [main] com.hazelcast.core.LifecycleService      : [192.168.187.1]:5702 [dev] [5.1.3] [192.168.187.1]:5702 is STARTED
+2022-10-17 20:47:55.595  INFO 9408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-17 20:47:55.990  INFO 9408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-17 20:47:56.070  INFO 9408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 20:47:56.182  INFO 9408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-17 20:47:56.499  INFO 9408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 20:47:56.708  INFO 9408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-17 20:47:57.330  INFO 9408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 20:47:57.339  INFO 9408 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 20:47:58.147  WARN 9408 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-17 20:47:59.434  WARN 9408 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a9797ce9-046f-438d-9a50-9643dcb092be
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-17 20:47:59.713  INFO 9408 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-10-17 20:47:59.788  INFO 9408 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3905229, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ebefdfa, org.springframework.security.web.context.SecurityContextPersistenceFilter@726e780a, org.springframework.security.web.header.HeaderWriterFilter@4494ed08, org.springframework.web.filter.CorsFilter@60f9fb56, org.springframework.security.web.csrf.CsrfFilter@7677d320, org.springframework.security.web.authentication.logout.LogoutFilter@2d63534d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34329e03, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7bd76b79, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@751eb9a9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@517594dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d839402, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c2c1790, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@749ebc39, org.springframework.security.web.session.SessionManagementFilter@6970687e, org.springframework.security.web.access.ExceptionTranslationFilter@79dd79eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c9e82a6]
+2022-10-17 20:47:59.970  INFO 9408 --- [main] c.l.s.ProductrestapiApplicationTests     : Started ProductrestapiApplicationTests in 14.236 seconds (JVM running for 15.699)
+2022-10-17 20:48:00.527  INFO 9408 --- [hz.ShutdownThread] com.hazelcast.instance.impl.Node         : [192.168.187.1]:5702 [dev] [5.1.3] Running shutdown hook... Current state: ACTIVE
+2022-10-17 20:48:00.537  INFO 6452 --- [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [192.168.187.1]:5701 [dev] [5.1.3] Connection[id=1, /192.168.187.1:5701->/192.168.187.1:63472, qualifier=null, endpoint=[192.168.187.1]:5702, remoteUuid=aa430eb4-7fa6-4d16-900e-6868fec48308, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+2022-10-17 20:48:00.539  INFO 9408 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 20:48:00.543  INFO 9408 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-17 20:48:00.548  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Connecting to /192.168.187.1:5702, timeout: 10000, bind-any: true
+2022-10-17 20:48:00.556  INFO 9408 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-17 20:48:02.590  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Could not connect to: /192.168.187.1:5702. Reason: IOException[Connection refused: no further information to address /192.168.187.1:5702]
+2022-10-17 20:48:04.815  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Connecting to /192.168.187.1:5702, timeout: 10000, bind-any: true
+2022-10-17 20:48:06.849  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Could not connect to: /192.168.187.1:5702. Reason: IOException[Connection refused: no further information to address /192.168.187.1:5702]
+2022-10-17 20:48:09.101  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Connecting to /192.168.187.1:5702, timeout: 10000, bind-any: true
+2022-10-17 20:48:11.143  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Could not connect to: /192.168.187.1:5702. Reason: IOException[Connection refused: no further information to address /192.168.187.1:5702]
+2022-10-17 20:48:11.144  WARN 6452 --- [hz.hazel-instance.cached.thread-7] .h.i.s.t.TcpServerConnectionErrorHandler : [192.168.187.1]:5701 [dev] [5.1.3] Removing connection to endpoint [192.168.187.1]:5702 Cause => java.io.IOException {Connection refused: no further information to address /192.168.187.1:5702}, Error-Count: 5
+2022-10-17 20:48:11.146  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.i.cluster.impl.MembershipManager     : [192.168.187.1]:5701 [dev] [5.1.3] Removing Member [192.168.187.1]:5702 - aa430eb4-7fa6-4d16-900e-6868fec48308
+2022-10-17 20:48:11.150  INFO 6452 --- [hz.hazel-instance.cached.thread-7] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5701 [dev] [5.1.3] 
+
+Members {size:1, ver:3} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25 this
+]
+
+2022-10-17 20:48:11.157  INFO 6452 --- [hz.hazel-instance.cached.thread-8] c.h.t.TransactionManagerService          : [192.168.187.1]:5701 [dev] [5.1.3] Committing/rolling-back live transactions of [192.168.187.1]:5702, UUID: aa430eb4-7fa6-4d16-900e-6868fec48308
+2022-10-17 21:09:38.650  INFO 6452 --- [hz.hazel-instance.cached.thread-11] c.h.i.c.impl.ClusterHeartbeatManager     : [192.168.187.1]:5701 [dev] [5.1.3] System clock apparently jumped from 2022-10-17 20:50:06.638 to 2022-10-17 21:09:38.649 since last heartbeat (+1167011 ms)
+2022-10-17 21:09:38.651  WARN 6452 --- [hz.hazel-instance.cached.thread-11] c.h.i.c.impl.ClusterHeartbeatManager     : [192.168.187.1]:5701 [dev] [5.1.3] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 1167011 ms, Heartbeat-Timeout: 60000 ms
+2022-10-17 21:09:39.460  WARN 6452 --- [hz.hazel-instance.InvocationMonitorThread] c.h.s.i.o.impl.InvocationMonitor         : [192.168.187.1]:5701 [dev] [5.1.3] MonitorInvocationsTask delayed 1168810 ms
+2022-10-17 21:09:39.461  WARN 6452 --- [hz.hazel-instance.InvocationMonitorThread] c.h.s.i.o.impl.InvocationMonitor         : [192.168.187.1]:5701 [dev] [5.1.3] BroadcastOperationControlTask delayed 1167814 ms
+2022-10-17 21:09:58.441  WARN 6452 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m58s821ms394µs).
+2022-10-17 21:12:06.689  INFO 13500 --- [main] c.l.s.ProductrestapiApplicationTests     : Starting ProductrestapiApplicationTests using Java 17.0.4.1 on MILE-BL-4144-LAP with PID 13500 (started by Miles in C:\Users\Miles\Desktop\workspace-spring-tool-suite-4-4.16.0.RELEASE\productrestapi)
+2022-10-17 21:12:06.691  INFO 13500 --- [main] c.l.s.ProductrestapiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-10-17 21:12:07.887  INFO 13500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-17 21:12:07.965  INFO 13500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-10-17 21:12:08.722  WARN 13500 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-10-17 21:12:09.261  INFO 13500 --- [main] com.hazelcast.system.logo                : [192.168.187.1]:5702 [dev] [5.1.3] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+2022-10-17 21:12:09.262  INFO 13500 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Copyright (c) 2008-2022, Hazelcast, Inc. All Rights Reserved.
+2022-10-17 21:12:09.262  INFO 13500 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Hazelcast Platform 5.1.3 (20220801 - 93838b2) starting at [192.168.187.1]:5702
+2022-10-17 21:12:09.262  INFO 13500 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Cluster name: dev
+2022-10-17 21:12:09.263  INFO 13500 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed.
+To enable integrity checker do one of the following: 
+  - Change member config using Java API: config.setIntegrityCheckerEnabled(true);
+  - Change XML/YAML configuration property: Set hazelcast.integrity-checker.enabled to true
+  - Add system property: -Dhz.integritychecker.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_INTEGRITYCHECKER_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-10-17 21:12:09.267  INFO 13500 --- [main] com.hazelcast.system                     : [192.168.187.1]:5702 [dev] [5.1.3] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2022-10-17 21:12:09.981  INFO 13500 --- [main] com.hazelcast.system.security            : [192.168.187.1]:5702 [dev] [5.1.3] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2022-10-17 21:12:10.075  INFO 13500 --- [main] com.hazelcast.instance.impl.Node         : [192.168.187.1]:5702 [dev] [5.1.3] Using Multicast discovery
+2022-10-17 21:12:10.082  WARN 13500 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.187.1]:5702 [dev] [5.1.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-10-17 21:12:10.482  INFO 13500 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.187.1]:5702 [dev] [5.1.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-10-17 21:12:10.495  INFO 13500 --- [main] com.hazelcast.core.LifecycleService      : [192.168.187.1]:5702 [dev] [5.1.3] [192.168.187.1]:5702 is STARTING
+2022-10-17 21:12:10.734  INFO 13500 --- [main] c.h.i.cluster.impl.MulticastJoiner       : [192.168.187.1]:5702 [dev] [5.1.3] Trying to join to discovered node: [192.168.187.1]:5701
+2022-10-17 21:12:10.786  INFO 6452 --- [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [192.168.187.1]:5701 [dev] [5.1.3] Initialized new cluster connection between /192.168.187.1:5701 and /192.168.187.1:63553
+2022-10-17 21:12:10.788  INFO 13500 --- [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [192.168.187.1]:5702 [dev] [5.1.3] Initialized new cluster connection between /192.168.187.1:63553 and /192.168.187.1:5701
+2022-10-17 21:12:15.916  INFO 6452 --- [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5701 [dev] [5.1.3] 
+
+Members {size:2, ver:4} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25 this
+	Member [192.168.187.1]:5702 - e460340f-eb59-4cc4-b717-bfb084acca5c
+]
+
+2022-10-17 21:12:15.931  INFO 13500 --- [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5702 [dev] [5.1.3] 
+
+Members {size:2, ver:4} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25
+	Member [192.168.187.1]:5702 - e460340f-eb59-4cc4-b717-bfb084acca5c this
+]
+
+2022-10-17 21:12:15.960  INFO 13500 --- [main] com.hazelcast.core.LifecycleService      : [192.168.187.1]:5702 [dev] [5.1.3] [192.168.187.1]:5702 is STARTED
+2022-10-17 21:12:16.252  INFO 13500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-17 21:12:16.603  INFO 13500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-17 21:12:16.679  INFO 13500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 21:12:16.762  INFO 13500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-17 21:12:17.021  INFO 13500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 21:12:17.195  INFO 13500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-17 21:12:17.749  INFO 13500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 21:12:17.761  INFO 13500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 21:12:18.446  WARN 13500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-17 21:12:19.750  WARN 13500 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4480cf53-f125-4922-8773-6d9a7b2a7b35
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-17 21:12:20.037  INFO 13500 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-10-17 21:12:20.101  INFO 13500 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@519b726a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34272839, org.springframework.security.web.context.SecurityContextPersistenceFilter@72412c3d, org.springframework.security.web.header.HeaderWriterFilter@397a70d8, org.springframework.web.filter.CorsFilter@708378cc, org.springframework.security.web.csrf.CsrfFilter@253fb3fa, org.springframework.security.web.authentication.logout.LogoutFilter@a43a21e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@222af5ff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ed761dc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17eb35fa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@77524169, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f8fa77a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14d44e72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d691d4f, org.springframework.security.web.session.SessionManagementFilter@7508912e, org.springframework.security.web.access.ExceptionTranslationFilter@1a389b39, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7631fb3e]
+2022-10-17 21:12:20.282  INFO 13500 --- [main] c.l.s.ProductrestapiApplicationTests     : Started ProductrestapiApplicationTests in 14.031 seconds (JVM running for 15.423)
+2022-10-17 21:12:20.660  INFO 13500 --- [hz.ShutdownThread] com.hazelcast.instance.impl.Node         : [192.168.187.1]:5702 [dev] [5.1.3] Running shutdown hook... Current state: ACTIVE
+2022-10-17 21:12:20.670  INFO 6452 --- [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [192.168.187.1]:5701 [dev] [5.1.3] Connection[id=2, /192.168.187.1:5701->/192.168.187.1:63553, qualifier=null, endpoint=[192.168.187.1]:5702, remoteUuid=e460340f-eb59-4cc4-b717-bfb084acca5c, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+2022-10-17 21:12:20.672  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Connecting to /192.168.187.1:5702, timeout: 10000, bind-any: true
+2022-10-17 21:12:20.672  INFO 13500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 21:12:20.677  INFO 13500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-17 21:12:20.689  INFO 13500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-17 21:12:22.681  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Could not connect to: /192.168.187.1:5702. Reason: IOException[Connection refused: no further information to address /192.168.187.1:5702]
+2022-10-17 21:12:22.792  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Connecting to /192.168.187.1:5702, timeout: 10000, bind-any: true
+2022-10-17 21:12:24.799  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Could not connect to: /192.168.187.1:5702. Reason: IOException[Connection refused: no further information to address /192.168.187.1:5702]
+2022-10-17 21:12:24.908  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Connecting to /192.168.187.1:5702, timeout: 10000, bind-any: true
+2022-10-17 21:12:26.974  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [192.168.187.1]:5701 [dev] [5.1.3] Could not connect to: /192.168.187.1:5702. Reason: IOException[Connection refused: no further information to address /192.168.187.1:5702]
+2022-10-17 21:12:26.975  WARN 6452 --- [hz.hazel-instance.cached.thread-14] .h.i.s.t.TcpServerConnectionErrorHandler : [192.168.187.1]:5701 [dev] [5.1.3] Removing connection to endpoint [192.168.187.1]:5702 Cause => java.io.IOException {Connection refused: no further information to address /192.168.187.1:5702}, Error-Count: 5
+2022-10-17 21:12:26.975  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.i.cluster.impl.MembershipManager     : [192.168.187.1]:5701 [dev] [5.1.3] Removing Member [192.168.187.1]:5702 - e460340f-eb59-4cc4-b717-bfb084acca5c
+2022-10-17 21:12:26.977  INFO 6452 --- [hz.hazel-instance.cached.thread-14] c.h.internal.cluster.ClusterService      : [192.168.187.1]:5701 [dev] [5.1.3] 
+
+Members {size:1, ver:5} [
+	Member [192.168.187.1]:5701 - d4b3b2dc-ad8f-441e-bcc7-b76d77ab9e25 this
+]
+
+2022-10-17 21:12:26.977  INFO 6452 --- [hz.hazel-instance.cached.thread-30] c.h.t.TransactionManagerService          : [192.168.187.1]:5701 [dev] [5.1.3] Committing/rolling-back live transactions of [192.168.187.1]:5702, UUID: e460340f-eb59-4cc4-b717-bfb084acca5c
+2022-10-17 21:19:20.565  INFO 6452 --- [RMI TCP Connection(30)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-17 21:19:20.595  INFO 6452 --- [RMI TCP Connection(30)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-17 21:19:20.597  INFO 6452 --- [RMI TCP Connection(30)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-17 21:19:20.610  INFO 6452 --- [RMI TCP Connection(30)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 21:19:20.642  INFO 6452 --- [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-17 21:19:20.653  INFO 6452 --- [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
