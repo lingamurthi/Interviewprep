@@ -1,0 +1,18 @@
+pseudoclass and elements
+arrow func and normal func
+semanatic tags
+
+map vs filter vs reduce
+
+callbackhell
+
+real dom vs virtual dom
+pure component 
+event loop
+control and uncontrol component
+higher order component
+this
+call apply bind
+advantage of typescript over javascript
+redux
+contextapi vs redux(props drilling )

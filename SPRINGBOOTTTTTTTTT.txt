@@ -1,0 +1,162 @@
+annotation scattered
+ 
+
+
+
+spring boot starter web include all dependency
+
+
+
+starter project ----------- bundle depedency
+
+
+
+
+spring boot starter dependecy include------- supports spring core , logger, yaml file support,auto configuration (autowiring application context),  externalized configuration file (application.properties), profiling(providing support for development and testing env)
+
+
+spring boot starter test ----- junit Mockito Assert4j
+
+
+
+pugins ----  spring-----boot-maven
+
+
+
+default logger logback 
+log4j
+
+
+yaml file convert into property file
+
+snakeyml ----- parser yml
+
+
+parent will modify the child dependency
+parent will manage all child dependency
+
+
+
+
+
+
+
+production starter  -------- monitoring and health
+
+
+
+
+
+
+
+
+
+PLUGIN ------  SUPPORT FOR GENERATING EXECUTABLE JAR FILES 
+
+
+
+
+
+
+
+
+
+web and application server
+
+
+
+applicatin server -----  >  transaction support
+
+
+
+
+
+
+jackson-------  json to java obj
+
+
+
+
+
+RESTCONTROLLER     ---------    return response body
+
+CONTROLLER  ----------  return view (logical view name)
+
+
+
+
+RequestMapping
+
+RequestParam ---------  ? 
+Pathvariable --------  /100
+we can access path variable @PathVariable
+
+
+Requestbody  ------ read the req
+ResponseEntity ------- 201  and add headers url is created
+
+
+
+nexus   jfrogartifactory  connect maven in industry
+
+
+sonar qube 
+
+
+content negoitation ------ REST
+
+
+
+
+
+
+
+
+
+
+
+spring data ---  providing implementation of various crud 
+
+we can implement sql and nosql 
+
+
+
+
+
+415  403
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MODEL
+user
+category
+product
+
+
+
+
+es6 ---   symbol
+
+strict mode  ------  all forms of error thrown so that debugging simpler
+
+
+
+
+
+
+
+
+
+
+

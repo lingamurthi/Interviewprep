@@ -1,0 +1,91 @@
+use strict
+
+initializing var without the declaring is not allowed
+duplicating a paramenter name is not allowed
+Deleting a variable (or object) is not allowed.
+
+With call(), an object can use a method belonging to another object.
+
+The call() method takes arguments separately.
+
+The apply() method takes arguments as an array.
+
+
+
+react router
+component composition
+prototype in javascript
+interceptor in react
+lazy loading
+
+local vs session storage
+
+
+
+For pure comp never update state or props bcz its reference didnot change instead 
+return the new the object or new array dealing with pure comp
+
+
+
+
+
+
+
+
+lexical scope
+global execution context
+higher order func
+
+
+bind doesnot invoke directly but gives copy of it so later we can invoke
+
+
+in promise we are attching function
+in calling we are passing function
+
+promise call only once
+
+fetch return promise
+
+state(PromiseState) and result(PromiseResult) of the promise 
+
+promise object are immutable
+
+
+PROMISE DEF
+promise is an object representing eventual completion of async operation
+
+promise chaining
+
+
+CLOSURE DEF
+
+function bind together with its lexical env
+or
+function along with its lexical scope bundled together forms closure
+
+
+
+
+all the call back functions comes under the promises and mutations goes under the microtask queue
+
+
+anonymous func used to assign the values
+
+
+First class function or First class citizens ---- ability to use function as values and pass func as a argument to another func and return from the func
+
+
+HIGHER ORDER FUNC
+a func takes another func anan argument  or return a func from it 
+
+
+
+
+
+attributes vs properties
+
+pseudo class and elements 
+
+
+event bubbling and capturing

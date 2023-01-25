@@ -1,0 +1,162 @@
+404 bad request ---- url is not present
+req method and url ------ 404
+
+dispatcher servlet calls controller
+
+
+autho
+
+Accept Encoding
+
+multivalue map  ----- spring collection
+
+
+put post patch
+requestbody ----- doesnot size limit
+requestbody ----- no need of encoding and decoding
+
+
+url --- get delete
+size limit
+
+
+
+
+html method=post --------  x-www-form-urle ----- RequestParam
+
+
+
+javascript based ------- raw
+
+binary ------ files
+
+
+400 --- bad request
+
+
+routedguards
+
+
+
+
+
+
+
+principle of rest
+
+
+
+
+return html response   slower   ------     get and post only  web services
+
+
+return data response (json,text,xml)        faster     all http methods  ----- api
+
+
+put ------ replace
+patch ----- update
+
+
+@jsonjakson ignore unknown = true
+
+
+
+
+
+@Restcontroller  -----------  @Controller + @ResponseBody
+
+
+java obj ----- json or text 
+
+
+                                   to
+Marshalling ------------domain --------- data transfer obj
+
+
+UnMarshalling 
+
+
+Adv of springboot
+autoconfig
+xml free
+Modular structure (Spring data jpa)
+
+
+
+one or more state of obj  to chage the state of obj------- transaction
+
+
+
+bydefault one transcation
+
+
+alter command  --------- to mention constraint
+
+
+text  -------- multiline
+
+
+INT(5)
+ 5 ---------- display width( display first 5 numbers)
+
+
+BOOLEAN ------ similar to tinyint
+
+
+DATETIME VS TIMESTAMP
+
+
+PRIMARY KEY AND UNIQUE --------- AUTOMATE INDEXING
+
+
+NULL ---------- Missing 
+
+
+if it is autoincrement that is primary key
+
+many to many --------- pivot table
+
+
+
+entities
+relationship
+
+
+
+Multiple table Queries
+Joins
+Subqueries
+CTES Comman table expression
+Views
+Temp table
+
+
+
+
+types of joins
+Inner
+Left
+Right
+Cross
+
+
+Inner join is the most effiecient
+
+
+cross -------without having comman column
+
+
+
+
+LIMIT 3
+
+LIMIT 1,1
+or OFFSET
+
+TINYINT
+
+
+If there is Duplicate only one record id there ----------- Natural join
+
+
+

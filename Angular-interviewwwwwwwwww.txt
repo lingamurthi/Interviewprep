@@ -1,0 +1,10 @@
+input tag within form tag we need to add name attribute
+
+intercept property changes during class and template interaction we have two approaches one is split two way binding syntax and other is getters or setters
+
+intercept changes during parent to child has two getters and setters and anpther one is ngonchanges
+
+
+if input is only one value then getters and settes is better
+if input is array of values then ngonchanges is better 
+ngonchanges works only for the child component

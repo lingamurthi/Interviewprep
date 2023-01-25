@@ -1,0 +1,19 @@
+microservices decomposition using business domain or functionality
+
+
+design pattern --  find solution for the problem and we can use the solution without rinevent the solution
+
+
+PAAS ----- Elastic bean stack , cloudfoundary, heroku
+
+
+
+decomposes by busineess domain
+subdomain
+
+
+maven clean
+update maven project
+maven install
+
+

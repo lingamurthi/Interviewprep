@@ -1,0 +1,9 @@
+runnable 
+serializable
+clonable
+throwable  --- class
+
+e.printstachtrace  --- name of exception, message and stacktrace 
+e.getmessage ------- only message 
+e.tostring 
+e

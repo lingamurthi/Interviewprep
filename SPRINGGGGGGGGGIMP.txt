@@ -1,0 +1,6 @@
+
+
+same email can create multuple password
+index freq search
+
+direction of joins smallest to largest

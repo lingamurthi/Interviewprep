@@ -1,0 +1,136 @@
+export default ----  we can give any name
+
+
+event handler is a function but not a function call
+
+
+
+
+
+SETSTATE
+
+without using setstate   if we use modify state --- component will not rerender when the state changes
+
+whenever we need to execute the code after the state changed use call back function as second parameter to the setstate function
+
+when we want to update state based on previous state we need to pass func as argument  instead of regular object
+bcz func can able to access the previous state
+
+
+usestate doesnot automatically and merge the object ----- we use spread operator 
+while setstate merge the state
+
+
+
+
+babel --------- convert jsx into javascript
+
+What is the React strict mode?
+
+
+passing data b/w component
+1)props
+2)call back
+3)context api
+4)redux
+
+
+
+
+css vs css3
+
+
+
+normal func vs arrow func
+
+
+settimeout and setinterval
+
+
+
+what is reactdomrender
+
+
+controlled vs uncontrolled component in react
+
+
+json vs object
+
+
+primitive and non primitive
+
+
+shallow vs deep copy
+
+object.freeze vs seal
+
+when to use class and functional comp
+
+
+stages of promises
+
+client side rendering vs server side rendering
+
+
+lazy loading
+
+
+polyfill
+
+
+debouncing
+
+
+
+window.locations.href   ---------   navigate by clicking page
+
+
+
+
+// var can be redeclared and reinitialized 
+// let can be cannot be redeclared but reinitialized
+// const cannot be redeclared and canoot be reinitialized
+
+
+//referencerror   typeerror   syntaxerror
+
+
+//three scopes   block  global  script
+
+
+//var is a function scope
+
+
+if shadowing its should not cross its boundry scope
+
+concurrency model in javascript
+
+
+
+
+
+curring is done by two mwthod
+one way bind method
+another way is closure
+
+
+
+we acnnot trust settimeout --- doesnot gaurrenate taking exactly that much amount of time
+
+
+event delegation is done by event bubbling
+
+
+
+In react parent component render default child component will also render
+
+
+
+read data from redux store from the react component we use useSelect
+
+
+
+strict mode in react ------ purely tool for developement mode not the production mode
+
+
+strict mode --- highlighting potential problems in applications and helps to identify unsafe lifecycle and legacy api usage etc

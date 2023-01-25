@@ -1,0 +1,22 @@
+sql vs nosql
+how many ways reverse liked list   ---- 
+
+practical implemetation of linked list
+
+
+
+
+
+32 27 22 50 90 61 70 88
+0   1  2  3  4  5  6  7
+
+p=50
+
+i=3 j=7
+
+
+
+
+string to array  ---  split and replace
+
+array to string  ---  tostring  and join

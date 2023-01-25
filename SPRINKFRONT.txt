@@ -1,0 +1,44 @@
+
+
+<div class="container mt-5">
+    <div class="card-deck" *ngIf="cuisinetypessouth" >
+        <div class="card " style="width:100px" *ngFor="let c of cuisinetypessouthandorder">
+           
+            <div class=" text-center mt-5">
+
+                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/10/3/0/FNM_110117-Insert-Opener-2_s4x3.jpg.rend.hgtvcom.476.357.suffix/1507047894789.jpeg" alt="aaaaaaa" style="width:250px">
+            </div>
+         
+          <div class="card-body text-center">
+            
+          
+                 
+                  <h3>{{c.name}}</h3>
+                  <div>{{c.email}}</div>
+                  <div>{{c.gender}}</div>
+            
+
+             <ul *ngFor="let o of c.orders">
+              <li style="list-style: none;">
+              
+               <strong>{{o.cuisineType}}</strong><br>
+              <strong>{{o.menuItemType}}</strong><br>
+            
+            <strong>{{o.portionSize}}</strong><br>
+
+           <strong>{{o.price}}</strong> 
+              </li>
+             </ul>
+                </div>
+            
+             <div class="text-center">
+              <button class="btn btn-success mt-5">Try Now</button>
+            </div>
+            
+          </div>
+        </div>
+       
+
+
+       
+    </div>

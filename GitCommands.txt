@@ -1,0 +1,29 @@
+git diff will not track the file in the staging area
+
+
+git diff --staged  --- track the file in staging area
+
+
+git rm ---- remove file
+
+ git checkout -- a.txt     ---------   remote to local repo will get copy
+
+git reset HEAD a.txt   --------  from staging area back to normal area
+
+
+
+git commit --amend -m "msg"  -----   dont need extra commit msg
+
+
+git checkout f9a3cbb8c651085de4853d7e3f53d08a0fe9e013 -- a.txt  ---  going back to previous commit
+
+git reset HEAD a.txt
+
+
+git ls-tree
+
+git log --oneline
+
+
+
+

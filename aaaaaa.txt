@@ -1,0 +1,80 @@
+checked exception are manditory to handle
+
+
+graceful termination
+abtract terimination
+
+uncaught exception 
+
+any resources can be opened----> resources should be closeable interfaces
+
+
+
+
+73 74 75 71 69 72 76 
+[1 1 4 2 1 1 0]
+
+
+
+10 10  10  20  20  30
+
+
+10     3
+20     2
+30     1
+
+
+
+
+
+
+1  1
+4  3
+2  3
+5  5
+7  2
+8  4
+
+
+
+
+
+
+
+
+if we apply top element it will cascade to last element
+
+
+
+inline style attribute
+internal   style tag
+external  link tag
+
+important -> used to get higher priroity
+
+
+
+
+
+aleternate 
+traditional box model
+
+
+
+
+
+
+width=50px
+height=2
+
+
+
+
+
+
+
+
+statefull inbound and outbound rule is same
+stateless inbound and outbound rule is not same
+
+

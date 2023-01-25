@@ -1,0 +1,10 @@
+mongodb+srv://lingu:<password>@cluster0.6o6lrco.mongodb.net/?retryWrites=true&w=majority
+
+
+
+lingu
+Qwerty5364#
+
+
+
+appname    lcotshirtstoreapp

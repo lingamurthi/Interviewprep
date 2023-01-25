@@ -1,0 +1,8 @@
+Observables and Subscribers in Angular, Services and Injectables in Angular
+https://docs.angular.lat/guide/inputs-outputs
+https://github.com/TradeMe/angular-master-class-exercises
+
+
+
+
+

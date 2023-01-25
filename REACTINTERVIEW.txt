@@ -1,0 +1,3 @@
+setstate fun in usestate doesnot merge object automatically we need to merge using spread operator
+
+setstate in class based func automatically merge and update object

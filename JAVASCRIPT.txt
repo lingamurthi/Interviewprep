@@ -1,0 +1,19 @@
+fetch return promises
+
+promise return 3 things resolved , reject , pending
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

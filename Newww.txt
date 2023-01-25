@@ -1,0 +1,47 @@
+Summary--------------
+Passionate full-stack developer with 1.2 years of hands on experience 
+in developing scalable websites/applications using wide range of front-end 
+and back-end skills like HTML,CSS,JAVASCRIPT,ANGULAR,REACT,CORE-JAVA,SPRING-BOOT.
+Designed and Developed websites from scrath currently i am looking for full stack developer role
+
+
+
+Project------------
+Sprink Food App
+Tools used : Angular Spring Boot Mysql Html Css Bootstrap4
+Fetching Food Menu data item from Mysql database  and filter the data using Spring data JPA native query Created JWT Token based Login authentication
+
+
+
+
+
+
+PROFESSIONAL EXPERIENCE---------------------------
+Java Developer
+Tata Consultancy Services Bangalore
+
+Identified root causes of recurring problems to implement effective
+solutions using HTML, CSS, JavaScript, Java, Angular and Spring-Boot
+Delivered Production defects and Hotfixes in a short
+interval of time.
+Debugging TCS Bancs application for
+understanding end to end processing and solving technical issues
+quickly and accurately.
+Designed and Developed web pages
+
+
+
+
+
+Contact Application-------
+Tools used Springboot Angular Html css Bootstrap4 H2 Database
+
+React Project--------                (Rename React Project to API integration using React)
+Tools used React Html css bootstrap4
+
+
+
+Technology-skillset------------------
+Docker ---- 5/10
+Data Structure and Algorithm ---- 6/10 
+Spring Boot ----- 6/10

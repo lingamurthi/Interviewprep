@@ -1,0 +1,138 @@
+
+import java.util.*;
+import java.lang.*;
+class A{
+   
+   
+   static void levelordertraversal(Node e,int l)
+   {
+       if(e==null)
+       return;
+       if(l==1)
+       System.out.print(e.key +" ");
+       else if(l>1)
+       {
+           levelordertraversal(e.left,l-1);
+           levelordertraversal(e.right,l-1);
+       }
+   }
+   
+    static int minimumelement(Node c)
+   {
+      if(c==null)
+      {
+        return Integer.MAX_VALUE;  
+      }
+      return Math.min(c.key, Math.min(minimumelement(c.left), minimumelement(c.right)));
+   }
+   
+   
+   static int maximumelement(Node c)
+   {
+      if(c==null)
+      {
+        return Integer.MIN_VALUE;  
+      }
+      return Math.max(c.key, Math.max(maximumelement(c.left), maximumelement(c.right)));
+   }
+   static int numberofnodes(Node b)
+   {
+       if(b==null)
+       {
+           return 0;
+       }
+       
+       return numberofnodes(b.left)+numberofnodes(b.right)+1;
+   }
+   static int height(Node a)
+   {
+       if(a==null)
+       return 0;
+       return Math.max(height(a.left),height(a.right)+1);
+   }
+   static void inorder(Node a)
+   {
+       if(a==null)
+       {
+           return ;
+       }
+       inorder(a.left);
+       System.out.println(a.key);
+       inorder(a.right);
+   }
+    static void preorder(Node a)
+   {
+       if(a==null)
+       {
+           return ;
+       }
+       System.out.println(a.key);
+       inorder(a.left);
+       
+       inorder(a.right);
+   }
+    static void postorder(Node a)
+   {
+       if(a==null)
+       {
+           return ;
+       }
+       inorder(a.left);
+       
+       inorder(a.right);
+       System.out.println(a.key);
+   }
+      static Node createNode()
+        {
+           Node root=null;
+           Scanner s =new Scanner(System.in);
+           System.out.println("Enter the data");
+          int n=s.nextInt();
+          if(n==-1)
+          {
+              return null;
+          }
+          root= new Node(n);
+          System.out.println("Enter the root left" +n);
+          root.left=createNode();
+          System.out.println("Enter the root right" +n);
+          root.right=createNode();
+          return root;
+        }
+        public static void main(String[] args)
+        {
+          
+         Node root=A.createNode();
+         A.inorder(root);
+         A.preorder(root);
+         A.postorder(root);
+         int h=A.height(root);
+         System.out.println(h);
+         int v=A.numberofnodes(root);
+         System.out.println(v);
+         int q=A.maximumelement(root);
+         System.out.println(q);
+         int p=A.minimumelement(root);
+         System.out.println(p);
+         for(int i=1;i<=h;i++)
+         {
+             A.levelordertraversal(root,i);
+         }
+        }
+}
+
+
+
+
+ class Node{
+        int key;
+        Node left;
+        Node right;
+        Node(int data)
+        {
+            this.key=data;
+            this.left=null;
+            this.right=null;
+        }
+     
+    }

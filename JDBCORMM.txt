@@ -1,0 +1,35 @@
+java jdbc
+
+
+jpa  without writing query         orm and query capabality
+
+
+persist    store data in database
+
+
+jpql       hql
+
+
+singleton------ heap    ---->    at a time one object is active
+
+
+prototype by default java used
+
+
+
+outside class we cant created      private constructor() inside class we can create obj
+
+
+
+
+
+
+
+constructor and method dependency or setter depedency , property depedency
+
+
+
+stored proc
+callable
+stored func    deterministic and non deter
+triggers

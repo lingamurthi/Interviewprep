@@ -1,0 +1,50 @@
+query and value send separately
+
+
+
+
+
+prepared statement---
+less network bandwidth
+safer and safe from sql injection attack
+precompiles
+
+
+
+driver manger --------- 
+database connection
+to get metadata about database, 
+
+
+
+stm    prepared stm    clable stm
+
+
+
+
+
+hibernate  
+
+
+
+statement ----ddl
+prepared stm ------dml dql 
+
+
+
+
+hibernate impl  of jpa
+
+jdbc --- tightl coupled
+hibernate --- lossely coupled
+
+
+
+hibernate internally create object
+automatic mapping (dependency injection)
+
+
+
+
+
+SOLID   DRY PRINCIPLE

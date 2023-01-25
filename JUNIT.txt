@@ -1,0 +1,13 @@
+pojo and main class we dont 
+
+Beforeall ------ called once
+
+
+error
+
+
+assertion ---  failure
+
+jmeter
+
+

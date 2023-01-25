@@ -1,0 +1,14 @@
+react.memo  ----- prevent functional comp to rerender when props and state donot change
+
+react-memo 
+recompute cache valued when one of the depedencies changed
+
+useselect
+used to get hold of any state that is maintain in redux store 
+
+useDispatch
+used to dispatch an action 
+
+
+
+

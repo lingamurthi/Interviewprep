@@ -1,0 +1,44 @@
+1)contactapp using angular and spring boot
+
+--->Implemented the CRUD operation in this contactapp, submitting and populating nested JSON data using angular reactive and template driven form respectively and also 
+also with the help of spring-boot backend framework and h2 inbuilt database store the data in the database
+
+
+
+
+2)Displaying the json data using React Library
+
+--->Used React Library to display the JSON data coming from reqres.in server and also implemented the pagination using Bootstrap 4 
+
+
+3)Implemented the clone of Amazon website and Netflix website replica with the help HTML,CSS and Bootstrap 4 version 
+
+
+
+
+
+
+
+SUMMARY--->
+
+Enthusiastic software engineer with 1.2 year of experience of
+working with HTML,CSS,Angular,Core JAVA,JAVA collections, Streams API and having excellent understanding of
+Object Oriented and component based software development.Specially trained in understanding, developing
+and designing the applications
+
+
+
+
+
+PROFESSIONAL EXPERIENCE--->
+
+1)Identified root causes of recurring problems to implement effective
+solutions using HTML,CSS,Javascript,Java and Angular
+
+2)Delivered Production defects and Hotfixes in a short
+interval of time.
+
+3)Debugging and troubleshooting TCS Bancs application for
+understanding end to end processing and solving technical issues
+quickly and accurately.
+

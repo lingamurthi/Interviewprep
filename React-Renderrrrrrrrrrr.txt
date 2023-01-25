@@ -1,0 +1,23 @@
+react.strictmode  ----  intentionally double invoke of functional component body only on development mode
+
+
+after initial render if we call setter function but set the state to same value component will not rerender
+
+
+
+after component rerender if u set the state to the same value but component will rerender one more time
+
+if the state is primitive type if it is new string, number or boolean if it not the case react beal out render phase
+
+
+comparsion made b/w previous state and current state react uses Object.is algorithm
+
+
+
+
+
+when we push element to same array , array elements change but array reference will not change (component will not render) to fix this we need to do copy the array
+
+
+
+Parent component render child component will also render  

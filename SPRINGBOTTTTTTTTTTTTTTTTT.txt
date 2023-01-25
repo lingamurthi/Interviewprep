@@ -1,0 +1,42 @@
+trace 
+
+debug 
+
+info 
+
+warn 
+
+error
+
+
+
+logging framemwork----  Log4j  Logback  JCL
+
+
+      
+
+slf4j  -------   
+
+
+
+root and package       --package
+
+
+
+
+
+
+
+
+access
+
+requestbody
+pathvariable
+requestparam
+
+
+
+
+
+
+webapplicationcontext extends applicationcontext

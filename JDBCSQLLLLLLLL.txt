@@ -1,0 +1,118 @@
+bifunctional    --- apply
+bipredicate     ---- test
+consumer-->take arg no return value     --- accept   
+supplier-->no arg but return value       --- get
+Function ----->arg type return obj different
+
+UnaryOperator --->  taking arg and return type should same
+BinaryOperator --> taking 2 arg and return type should same
+
+
+jshell
+
+
+value can be reassign java 11
+
+
+
+
+
+efcodd
+
+schema validation or table structure validation
+
+
+view ---> only expose data and also restricted the data
+
+
+table 
+index
+sequence
+
+view
+
+
+
+remove duplicate values in table
+
+
+
+
+mysql -h _____ -u  -p
+
+
+
+equijoin and non equijoin
+
+
+union ---> both tables are matching
+
+unionall ----> retain duplicate
+
+
+
+
+
+
+
+mysql connector jar  implemetation of jdbc interface
+
+
+
+connection polling
+
+
+table
+schema --- collection of tables
+view
+
+
+
+jdbc we can switch from one database to another
+
+
+
+stm vs prepared stm
+
+prepared stm ----- precompilied queries
+
+
+
+
+
+
+
+UI  CONTROLLER   SERVICESS  DAO
+
+
+annotation -----> additional information (metadata) given to compiler 
+
+
+
+session factory        establish connection to database
+
+
+
+hql and nativequery
+
+
+hql and 
+nativequery --dont operate on another database
+
+
+
+orm frameworks---- hibernate and hiberties
+
+
+
+hibernate---- sessionfactory
+
+jpa  entitymanagerfactory
+
+
+
+
+
+
+
+jpa  ----specification

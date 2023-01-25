@@ -1,0 +1,8 @@
+> children
++ siblings
+
+ctrl+/  comment
+ctrl+shift+d  duplicate
+
+
+use percentage in width and height 

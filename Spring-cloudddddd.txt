@@ -1,0 +1,19 @@
+spring-cloud-starter-LOADBALANCER
+
+distribute load among the instances return by the eureks
+
+
+earlier load balancer is used by RIBBON
+
+newer version they shifted to spring-cloud-starter-LOADBALANCER
+
+
+
+if we use eureka and feign ----- load balance comes free ---  client side load balancing
+
+
+
+
+older version popular api gateway --- zuul  
+
+newer version --- spring cloud api gateway

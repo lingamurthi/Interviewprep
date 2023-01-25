@@ -1,0 +1,16 @@
+explain mvc architecture 
+display none vs visibility hidden
+which layer do you write businees logic 
+syncronous and asynchronous
+request header what will you pass if we send text data
+where will you 
+react features
+virtual dom
+git rebase
+aws vpc
+aws iam
+private subnet and public subnet
+docker and kubernetes
+git commands from basics
+
+

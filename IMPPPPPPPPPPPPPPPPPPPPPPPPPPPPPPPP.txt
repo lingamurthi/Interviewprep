@@ -1,0 +1,39 @@
+template ---- html
+component class --- ts
+component style --- css
+
+
+%%appdata%%    -g
+
+local angular version priority than global angular version
+
+
+webpack  -- module bundler --  bundle js file together
+
+
+bundler -- bundle together to make one file
+
+
+vender.js --- 3rd party
+
+dist folder
+
+
+
+
+
+
+rxjs --> handle asynchronous call with multiple events
+
+
+
+
+
+
+
+
+Login form using reactive 
+When you submit the form, console log all values. Additionally, display all the user input values on the webpage 
+Include populate button, clear button, Login button, and a Validate button
+Validate button will validate the input values entered by the user
+Only allow the user to login if the entered credentials are valid

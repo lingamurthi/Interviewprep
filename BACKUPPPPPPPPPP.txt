@@ -1,0 +1,321 @@
+<span *ngIf="simpletext" class="cardinfo">pick your card and place it on milestone</span>
+
+
+
+
+.path
+{
+  
+position: absolute;
+width: 1841px;
+height: 50px;
+left: -80px;
+z-index: -1;
+top: 230px;
+}
+
+
+.milestone2
+{
+  position: absolute;
+width: 172px;
+height: 185px;
+left: 50px;
+top: -10px;
+z-index: -1;
+}
+
+
+.milestone3
+{
+  position: absolute;
+width: 172px;
+height: 185px;
+left: 480px;
+top: -10px;
+z-index: -1;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.milestone4
+{
+  position: absolute;
+width: 172px;
+height: 185px;
+left: 900px;
+top: -10px;
+z-index: -1;
+}
+
+
+  img{
+    margin-left: 80px;
+    margin-top: 25px;
+   
+  }
+h4{
+  text-align: center;
+  font-size: 20px;
+}
+.completed{
+  position: absolute;
+  text-align: center;
+  width: 282px;
+  height: 29px;
+  color: #8BA840;
+  top:210px;
+  bottom: 86px;
+  background: rgba(139, 168, 64, 0.14);
+}
+
+
+.completed2{
+  position: absolute;
+  text-align: center;
+  width: 282px;
+  height: 29px;
+  color: #DAAA1B;
+  top:210px;
+  bottom: 86px;
+  background: rgba(218, 170, 27, 0.14);
+}
+
+
+
+.completed3{
+  position: absolute;
+  text-align: center;
+  width: 282px;
+  height: 29px;
+  color: #DAAA1B;
+  top:210px;
+  bottom: 86px;
+  background: rgba(218, 170, 27, 0.14);
+}
+
+
+.card{
+  
+
+width: 282px;
+height: 361px;
+left: 74px;
+bottom: 160px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.19);
+border-radius: 6px;
+}
+
+
+
+.card2{
+  
+ 
+  width: 282px;
+  height: 361px;
+ left: 500px;
+  bottom: 160px;
+  
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  }
+
+
+
+
+  .card3{
+  
+    
+    width: 282px;
+    height: 361px;
+   left: 900px;
+    bottom: 160px;
+    
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    }
+
+
+#info{
+  position: absolute;
+width: 108px;
+height: 81px;
+left: 88px;
+bottom: 64px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #313131;
+}
+
+img{
+  position: absolute;
+width: 106px;
+height: 103px;
+left: 17px;
+
+}
+
+.timing
+{
+  position: absolute;
+width: 154px;
+height: 17px;
+top: 247px;
+bottom: 16px;
+left: 70px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #9D9D9D;
+}
+
+img{
+  border-color: #313131;
+  }
+
+
+  
+
+    .text
+    {
+      display: none;
+      border: 1px solid black;
+    }
+
+    span{
+      position: absolute;
+      color: #8BA840;
+      border-color:  rgba(139, 168, 64, 0.14);
+    
+      background: rgba(139, 168, 64, 0.14);
+      margin: 15px 32px 62px 32px;
+
+    }
+  
+
+
+
+
+
+    
+  
+
+   
+
+
+
+
+
+
+
+
+    
+
+
+    
+    .pqr::before{
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-color: transparent transparent transparent rgba(139, 168, 64, 0.14)  ;
+      border-width: 10px 9px 8px 12px;
+      right: 148px;
+      top: 67px;
+ 
+      
+    }
+
+
+
+    .pqr2::before{
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-color: transparent transparent transparent rgba(218, 170, 27, 0.14)  ;
+      border-width: 10px 9px 8px 12px;
+      right: 148px;
+      top: 67px;
+ 
+      
+    }
+
+
+
+    .pqr3::before{
+      content: '';
+      position: absolute;
+      border-style: solid;
+      border-color: transparent transparent transparent rgba(22, 145, 211, 0.14); 
+      border-width: 10px 9px 8px 12px;
+      right: 148px;
+      top: 67px;
+ 
+      
+    }
+
+  
+    .year
+    {
+      position: absolute;
+      color: #8BA840;
+   top: 264px;
+   left: 109px;
+    }
+
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+     
+      padding: 10px;
+      top: 10px;
+      margin-top: 279px;
+      margin-left: 30px;
+    }
+
+
+    .cardinfo{
+      color: white;
+      background-color: #313131;
+      top: -15px;
+      left: 43px;
+      padding: 5px;
+    }
+
+
+    .cardinfo2{
+      color: white;
+      background-color: #313131;
+      top: -15px;
+      left: 480px;
+      padding: 5px;
+    }
+
+
+    .cardinfo3{
+      color: white;
+      background-color: #313131;
+      top: -15px;
+      left: 945px;
+      padding: 5px;
+    }

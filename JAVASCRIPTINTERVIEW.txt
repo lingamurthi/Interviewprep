@@ -1,0 +1,10 @@
+settimeout vs setinterval
+shallow copy vs deep copy
+promise vs callback
+
+flexbox
+
+pure component
+
+higher order component
+

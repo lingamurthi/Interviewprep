@@ -1,0 +1,6 @@
+Decorator  -->  insert meta data into classes, constructors, getters and setters, methods, variables
+
+Decorate your classes with some additional features
+
+
+npm install      to get node_modules

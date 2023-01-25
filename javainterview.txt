@@ -1,0 +1,46 @@
+JAVA
+
+String to integer 
+
+Integer.parseInt()
+Interger.valueOf()
+
+
+
+
+Integer to String
+
+String.valueOf()
+Integer.toString()
+String.format()
+
+
+
+print duplicate characters from string
+two strings are anagram or not
+count the number of words in string
+count the total number of occurrences of a given character in a string without using any loop
+reverse a string
+remove all white spaces from a string
+first non repeated character from string
+reverse string in java using iteration and recursion
+check if a string contains only digits
+reverse a given string with preserving the position of spaces
+reverse each word of a given string
+count number of vowels and consonants in a string
+convert string to integer and integer to string in java
+find all permutation of a string
+check if string is palingdrome
+remove duplicate charactes from string
+to append a given string to a text file
+check if a String contain another string
+to remove a given characters from string
+sort string in java
+find most repeated word in a text file in java
+find first repeated and non repeated character in the given string in java
+find number of characters number of words and number of lines in a text file
+
+
+
+string is a isogram or not
+fibonnci series using recusion
